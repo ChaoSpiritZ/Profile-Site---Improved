@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile, .edit {
+  width: 50%;
+  float: left;
+  border: 2px solid red;
+  min-height: 750px;
+  padding: 5px;
+
+}
+
+.profile img {
+  width: 50%;
+  display: block;
+}
+
+.hobbies {
+  width: 50%;
+  border: 1px solid blue;
+  min-height: 23px;
+}
+
+.hobbies input {
+  width: 100%;
+  display: block;
+  margin-bottom: 2px;
+}
+
+button {
+  margin: 2px;
+  margin-right: 10px;
+}
