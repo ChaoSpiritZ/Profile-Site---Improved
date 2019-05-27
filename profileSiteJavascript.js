@@ -8,8 +8,10 @@ hobbies.appendChild(input);
 }
 
 function submit() {
+
 var hobbyCollection = document.getElementsByName("hobby")
 var hobbyText = document.getElementById("hobbytext")
+hobbyText.innerHTML = "";
 for (var i = 0; i < hobbyCollection.length; i++) {
 if (hobbyCollection[i].value != "") {
 hobbyText.innerHTML += hobbyCollection[i].value + "<br>";
